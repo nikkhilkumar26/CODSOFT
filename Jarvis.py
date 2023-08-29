@@ -22,7 +22,7 @@ engine.setProperty('rate', newvoicerate)
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
-speak("Hello  This is JOJO")
+speak("Hello  This is JARVIS")
 
 def time():
     time=datetime.datetime.now().strftime("%I:%M:%S")
@@ -54,7 +54,7 @@ def wishme():
         speak("Good evening sir")
     else:
         speak("Good night sir")
-    speak("Jojo at your service, how can i help you")
+    speak("Jarvis at your service, how can i help you")
 
 def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)

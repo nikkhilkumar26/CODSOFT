@@ -47,13 +47,13 @@ def wishme():
 
     hour=datetime.datetime.now().hour
     if hour>=6 and hour<=12:
-        speak("Good morining maam")
+        speak("Good morining sir")
     elif hour>12 and hour<=18:
-        speak("Good afternoon maam")
+        speak("Good afternoon sir")
     elif hour>18 and hour<=24:
-        speak("Good evening maam")
+        speak("Good evening sir")
     else:
-        speak("Good night maam")
+        speak("Good night sir")
     speak("Jojo at your service, how can i help you")
 
 def sendEmail(to, content):

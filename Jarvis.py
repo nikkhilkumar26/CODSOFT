@@ -22,7 +22,7 @@ engine.setProperty('rate', newvoicerate)
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
-speak("Hello  This is JARVIS")
+speak("Hello  This is Jarvis")
 
 def time():
     time=datetime.datetime.now().strftime("%I:%M:%S")

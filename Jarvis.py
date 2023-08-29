@@ -203,11 +203,7 @@ if __name__== "__main__":
 
         elif 'your master' in query:
             if platform == "win32":
-                speak('Nidhi is my master. she created me couple of days ago')
-
-        elif 'github' in query:
-            webbrowser.get('chrome').open_new_tab(
-                'https://github.com/nidhiyadav03')
+                speak('Nikhil is my master. she created me couple of days ago')
 
         elif 'search youtube' in query:
             speak('What you want to search on Youtube?')
